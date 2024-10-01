@@ -7,7 +7,7 @@ from langchain.chains import SequentialChain
 llm = ChatGroq(
     model_name="llama-3.2-90b-text-preview",  
     temperature=0,
-    groq_api_key="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"
+    groq_api_key="API-KEY"
 )
 
 def generate_restaurant_name_and_items(cuisine):
